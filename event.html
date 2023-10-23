@@ -6,12 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="ritu">ring bell</button>
+    <button onclick="clicked()">ring bell</button>
 </body>
 <script>
     let abc = document.getElementById("ritu");
     abc.innertext = "please open the door";
-    console.log(abc.innertext);
+    function clicked(){
+        alert(abc.innertext);
+    }
 
 </script>
 </html>
