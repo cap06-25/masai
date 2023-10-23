@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="clicked()">ring bell</button>
+    <button onclick="clicked()">Show Quote in console</button>
+  <p id="quote">Talk is cheap Show me the code</p>
 </body>
 <script>
-    let abc = document.getElementById("ritu");
-    abc.innertext = "please open the door";
+    let abc = document.getElementById("quote");
     function clicked(){
-        alert(abc.innertext);
+        console.log(abc.innertext);
     }
 
 </script>
